@@ -14,9 +14,14 @@ public class InputScanner {
 		int inch;
 		double cm;
 		Scanner console = new Scanner(System.in);
-		System.out.println("Enter length in inches to convert to centimters");
+		System.out.println("Enter length in inches to convert to centimeters");
+		inch = console.nextInt();
+		double conv = 2.54;
+		cm = inch * conv;
+		System.out.println(inch + " inches are equal to " + cm + " centimeters");
+	
 	}
 	public static void main(String[] args) {
-	linedemo();
+	intdemo();
 	}
 }
