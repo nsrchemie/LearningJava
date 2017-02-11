@@ -11,12 +11,12 @@ public class InputScanner {
 	}
 
 	static void intdemo(){
-		int inch;
+		double inch;
 		double cm;
 		Scanner console = new Scanner(System.in);
 		System.out.println("Enter length in inches to convert to centimeters");
-		inch = console.nextInt();
-		double conv = 2.54;
+		inch = console.nextFloat();
+		final double conv = 2.54;
 		cm = inch * conv;
 		System.out.println(inch + " inches are equal to " + cm + " centimeters");
 	
