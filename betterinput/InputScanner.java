@@ -14,7 +14,7 @@ public class InputScanner {
 		double inch;
 		double cm;
 		Scanner console = new Scanner(System.in);
-		System.out.println("Enter length in inches to convert to centimeters");
+		System.out.print("Enter length in inches to convert to centimeters: ");
 		inch = console.nextDouble();
 		final double conv = 2.54;
 		cm = inch * conv;
