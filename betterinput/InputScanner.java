@@ -10,7 +10,7 @@ public class InputScanner {
 	System.out.println("Your Input: " + line);
 	}
 
-	static void intdemo(){
+	static void floatdemo(){
 		double inch;
 		double cm;
 		Scanner console = new Scanner(System.in);
@@ -22,6 +22,6 @@ public class InputScanner {
 	
 	}
 	public static void main(String[] args) {
-	intdemo();
+	floatdemo();
 	}
 }
