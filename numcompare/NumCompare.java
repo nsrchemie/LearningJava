@@ -5,10 +5,16 @@ public class NumCompare {
 		int first;
 		int second;
 		int third;
+		int max;
 		Scanner console = new Scanner(System.in);
-		System.out.println("Is this working?");
+		System.out.println("First Number?");
 		first = console.nextInt();
-		System.out.println("you typed in " + first);
+		System.out.println("Second Number?");
+		second = console.nextInt();
+		System.out.println("First Number?");
+		third = console.nextInt();							
+		System.out.println("you typed in " + first + " " + second + " and " + third);
+		// if ()
 
 	}
 }
