@@ -9,12 +9,19 @@ public class NumCompare {
 		Scanner console = new Scanner(System.in);
 		System.out.println("First Number?");
 		first = console.nextInt();
+		max = first;
 		System.out.println("Second Number?");
 		second = console.nextInt();
 		System.out.println("First Number?");
 		third = console.nextInt();							
 		System.out.println("you typed in " + first + " " + second + " and " + third);
-		// if ()
+		if (second > max) {
+			max = second;
+		}
+		if (third > max ) {
+			max = third;
+		}
+		System.out.println("Highest number is " + max);
 
 	}
 }
