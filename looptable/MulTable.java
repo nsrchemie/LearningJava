@@ -1,13 +1,22 @@
 public class MulTable {
 	public static void main(String[] args) {
-		printRow();
+		printTable();
+
+	}
+
+	static void printRow(int n) {
+		int i = 1;
+		while (i <= 6) {
+			System.out.printf("%4d", n * i);
+			i = i + 1;
+		}
 		System.out.println();
 	}
 
-	static void printRow() {
+	static void printTable() {
 		int i = 1;
 		while (i <= 6) {
-			System.out.printf("%4d", 2 * i);
+			printRow(i);
 			i = i + 1;
 		}
 	}
