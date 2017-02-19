@@ -3,6 +3,7 @@ public class ArrOne {
 		int[] counts;
 		counts = new int[4];
 		for (int i = 0; i < counts.length; i++) {
+			counts[i] = i;
 			System.out.println(counts[i]);
 		}
 
